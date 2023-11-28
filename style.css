@@ -1,0 +1,67 @@
+html {
+
+}
+
+body{
+  display: flex;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 1000px;
+  background-image: url("img/jared-subia--2mEhM9nKsM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+}
+
+#tournament-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 250px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.42);
+  align-items: center;
+  justify-content: center;
+  margin-top: 175px;
+  position: relative;
+}
+
+#tournament {
+  opacity: 1;
+  margin-bottom: 0;
+}
+
+#hoop-credit {
+  font-size: 14px;
+  margin-top: auto;
+  color: whitesmoke;
+}
+
+#logo-credit {
+  font-size: 10px;
+  color: whitesmoke;
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#info-container {
+  
+}
