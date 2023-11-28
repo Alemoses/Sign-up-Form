@@ -64,5 +64,22 @@ a {
 }
 
 #info-container {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  background-color: whitesmoke;
+  height: 395px;
+}
+
+.info {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+#nike {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
 }
