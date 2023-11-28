@@ -68,18 +68,31 @@ a {
   flex-direction: column;
   justify-content: center;
   padding: 15px;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.508);
   height: 395px;
 }
 
 .info {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  letter-spacing: .5px;
+  letter-spacing: .4px;
 }
 
 #nike {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   margin: 0;
+}
+
+.sign-up {
+  box-shadow: 0 -6px 7px -7px grey inset;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: none;
 }
