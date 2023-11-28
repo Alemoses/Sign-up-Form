@@ -121,8 +121,9 @@ li {
   padding: 10px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.766);
-  font-size: 12px;
+  font-size: 14px;
   margin-right: 75px;
+  gap: 2px;
 }
 
 input {
@@ -130,5 +131,10 @@ input {
   height: 30px;
   border-radius: 5px;
   border-color: lightgray
+}
+
+#create {
+  background-color: whitesmoke;
+  height: 165px;
 }
 
