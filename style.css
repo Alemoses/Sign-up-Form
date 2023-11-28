@@ -85,14 +85,50 @@ a {
 }
 
 .sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
   box-shadow: 0 -6px 7px -7px grey inset;
+  height: 395px;
 }
 
+
 legend {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
 }
 
 fieldset {
+  display: flex;
+  flex-direction: column;
   border: none;
+  justify-content: space-between;
 }
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.766);
+  font-size: 12px;
+  margin-right: 75px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: lightgray
+}
+
