@@ -141,7 +141,7 @@ input {
 }
 
 #submit {
-  background-color: rgb(16, 114, 146);
+  background-color: rgb(83, 120, 179);
   color: whitesmoke;
   font-weight: bold;
   font-size: 16px;
@@ -149,8 +149,12 @@ input {
 }
 
 #log-in {
-  color: rgb(16, 114, 146);
+  color: rgb(83, 120, 179);
   font-size: 16px;
+}
+
+:user-invalid {
+  border-color: red;
 }
 
 

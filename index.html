@@ -24,32 +24,38 @@
     </div>
     <div class="sign-up">
       <form action="post">
+        <!--TO DO-->
+        <!-- 1. Create patterns and min-length/max-lengths for all inputs.
+             2. Check sytax for all inputs.
+             3.Change styles based on valid/invalid client validations.
+        -->
+        
         <fieldset>
           <legend>Sign Up Here</legend>
           <ul>
             <li>
               <label for="firstname">FIRST NAME</label>
-              <input id="firstname" name="firstname" type="text" required>
+              <input id="firstname" name="firstname" type="text" pattern="/^[a-z ,.'-]+$/i" placeholder="John" required>
             </li>
             <li>
               <label for="lastname">LAST NAME</label>
-              <input id="lastname" name="lastname" type="text" required>
+              <input id="lastname" name="lastname" type="text" pattern="/^[a-z ,.'-]+$/i" placeholder="Smith" required>
             </li>
             <li>
               <label for="email">EMAIL</label>
-              <input id="email" name="email" type="text" required>
+              <input id="email" name="email" type="email" placeholder="johnsmith@gmail.com" required>
             </li>
             <li>
               <label for="phone">PHONE NUMBER</label>
-              <input id="phone" name="phone" type="number" required>
+              <input id="phone" name="phone" type="tel" minlength="10" maxlength="10" pattern="\d{10}" placeholder="1234567890" required>
             </li>
             <li>
               <label for="password">PASSWORD</label>
-              <input id="password" name="password" type="password" required>
+              <input id="password" name="password" type="password" maxlength="30" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\w\s]).{8,}$" placeholder="********" required>
             </li>
             <li>
               <label for="confirm">CONFIRM PASSWORD</label>
-              <input id="confirm" name="confirm" type="password" required>
+              <input id="confirm" name="confirm" type="password" maxlength="30" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\w\s]).{8,}$" placeholder="********" required>
             </li>
           </ul>
         </fieldset>
@@ -57,7 +63,7 @@
     </div>
     <div id="create">
       <div class="submit-container">
-        <input id="submit" name="submit" type="button" value="Create Account">
+        <input id="submit" name="submit" type="submit" value="Create Account">
         <p>Already have an account? <a id="log-in" href="#">Log in</a></p>
       </div>
     </div>
